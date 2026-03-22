@@ -30,3 +30,4 @@ async def add_process_time_header(request: Request, call_next):
 @app.get("/process_speech/{text}", response_model=List[PhoneticState])
 async def process_speech(text: str):
     return get_phonetic_sequence(text)
+
