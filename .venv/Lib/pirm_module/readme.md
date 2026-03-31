@@ -30,3 +30,7 @@
 [cite_start]The module is designed to run within a **FastAPI-based** ecosystem using `librosa` and `scikit-learn`[cite: 169].
 ```bash
 pip install librosa scikit-learn numpy
+
+
+
+🏛 Institutional AffiliationDelhi Technological University (DTU) Department of Computer Science EngineeringDelhi, IndiaAuthor: Bhupender NayakProject: Project Nishimiya (Assistive Indic Speech Visualization)Final Implementation NoteThe PIRM layer is fully decoupled from the OpenCV rendering engine, allowing the predicted phonetic intent to be passed seamlessly to the Triple-Layer State Machine (TLSM) for visual synthesis.
